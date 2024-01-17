@@ -33,7 +33,7 @@ public class Homework2 {
         num2 = (num / 10) % 10;
         num3 = num % 10;
 
-        System.out.println("Число " + num + " -> " + num1+ ", " + num2 + ", " + num3);
+        System.out.println("number " + num + " -> " + num1+ ", " + num2 + ", " + num3);
 
     }
 
