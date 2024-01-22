@@ -10,5 +10,11 @@ public class test {
 
         System.out.println(c);
         System.out.println(d);
+
+        int ProductA = a;
+        int ProductB = b;
+        int Discount = a + b;
+
+        System.out.println();
     }
 }
