@@ -40,15 +40,13 @@ public class User {
         return this.password.equals(oldPassword);
     }
     private boolean isValidPassword(String newPassword) {
-        // Ваша логика проверки требований безопасности пароля
-        // Пример: Пароль должен содержать не менее 8 символов
         return newPassword.length() >= 2;
     }
 
     public void changePassword(String oldPassword, String newPassword) {
         if (isCorrectOldPassword(oldPassword) && isValidPassword(newPassword)) {
             this.password = newPassword;
-            System.out.println("Пароль успешно изменен");
+            System.out.println("Пароль изменен");
         } else {
             System.out.println("Ошибка при изменении пароля");
         }
