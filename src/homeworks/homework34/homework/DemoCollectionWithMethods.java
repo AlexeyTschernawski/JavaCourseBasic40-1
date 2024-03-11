@@ -1,4 +1,4 @@
-package homeworks.homework34;
+package homeworks.homework34.homework;
 
 public class DemoCollectionWithMethods {
     public static void main(String[] args) {
