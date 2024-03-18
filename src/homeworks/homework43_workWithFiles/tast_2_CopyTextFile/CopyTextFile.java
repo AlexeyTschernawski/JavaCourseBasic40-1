@@ -26,6 +26,6 @@ public class CopyTextFile {
         bufferedReader.close();
         fileWriter.close();
 
-        System.out.println("File copied successfully.");
+        System.out.println("File copied successfully!");
     }
 }
