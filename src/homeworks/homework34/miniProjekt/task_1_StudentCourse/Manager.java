@@ -6,7 +6,7 @@ public class Manager {
         StudentManager studentManager = new StudentManager();
 
 
-        Student student1 = new Student("Alex", "Bren", 123);
+        Student student1 = new Student("Alexey", "Bren", 123);
         Student student2 = new Student("Thomas", "Huber", 125);
         Student student3 = new Student("Oliver", "Muller", 124);
 
